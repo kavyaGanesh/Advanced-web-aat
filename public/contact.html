@@ -1,0 +1,168 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="My Recipes Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script src="js/responsiveslides.min.js"></script>
+ <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+  <script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+  <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+	<!--Animation-->
+<script src="js/wow.min.js"></script>
+<link href="css/animate.css" rel='stylesheet' type='text/css' />
+<script>
+	new WOW().init();
+</script>
+</head>
+<body>
+    <!-- header-section-starts -->
+	<div class="header">
+		<div class="container">
+			<div class="logo wow bounceInDown animated" data-wow-delay="0.4s">
+				<a href="index.html"><img src="images/logo3.png" alt="" style="height:100px;" /></a>
+			</div>
+			<div class="header-right wow fadeInLeft animated" data-wow-delay="0.5s">
+				<div class="social-icons"><!--
+					<li><a href="#"><i class="twitter"></i></a></li>
+					<!--<li><a href="#"><i class="facebook"></i></a></li>
+					<li><a href="#"><i class="rss"></i></a></li>-->
+					<li><div class="facebook"><div id="fb-root"></div>
+						<div id="fb-root"></div>
+						</div></li>
+							<script>(function(d, s, id) {
+							  var js, fjs = d.getElementsByTagName(s)[0];
+							  if (d.getElementById(id)) return;
+							  js = d.createElement(s); js.id = id;
+							  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+							  fjs.parentNode.insertBefore(js, fjs);
+							}(document, 'script', 'facebook-jssdk'));</script>
+					<div class="fb-like" data-href="https://www.facebook.com/w3layouts" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+				</div>
+				<div class="offer-text">
+						<a href="login/signin.html"><input type="button" value="LOGIN"></a>
+						</div>
+						<!--<div class="offer-text">
+						<a href="register.html"><input type="button" value="register"></a>
+						</div>-->
+					</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="container">
+	<div class="main-content">
+	<div class="about-banner wow fadeInUp animated" data-wow-delay="0.4s">
+	<div class="top-menu navigation wow rollIn animated" data-wow-delay="0.4s">
+	<span class="menu"> </span>
+						<ul>
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="menu.html">MENU</a></li>
+							<li><a href="gallery.html">GALLERY</a></li>
+							<li><a href="about.html">ABOUT US</a></li>
+							<li><a class="active" href="contact.html">CONTACT US</a></li>
+							<div class="clearfix"></div>
+						</ul>
+					</div>
+					<!-- script-for-menu -->
+						<script>
+							$("span.menu").click(function(){
+								$(".top-menu ul").slideToggle("slow" , function(){
+								});
+							});
+						</script>
+						<!-- script-for-menu -->
+	</div>
+	<div class="contact">
+				<h3 class="wow fadeInLeft animated animated" data-wow-delay="0.4s">Our Location</h3>
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.637780837817!2d77.49313441394851!3d12.995003990840532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3c5c0fb9e103%3A0xdc185974fe421fcf!2sMahadeshwaranagara%20Main%20Rd%2C%20Bengaluru%2C%20Karnataka%20560091!5e0!3m2!1sen!2sin!4v1589198535431!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+				<div class="col-md-6 contact-form wow fadeInRight animated" data-wow-delay="0.4s">
+					<form action="/contact" method="post">
+						<input type="text" placeholder="Name:" name="Username" maxlength="25" minlength="3" pattern="^[a-zA-Z]{4,}(?: [a-zA-Z]+){0,2}$" title="only alphabets should be entered minimum of 3 characters and maximum of 25 characters no special characters are allowed like @#!%$&^(){}?\/|:;.," required>
+						<input type="text" placeholder="Email-id:" name="Email" pattern="[^ @]*@[^ @]*" title="lazycooking@gmail.com"required>
+						<input type="text" placeholder="Subject:" name="Subject" required="">
+						<textarea placeholder="Message:" name="Message" required=""></textarea>
+						<div class="wow swing animated animated" data-wow-delay="0.4s">
+							<input type="submit" value="SEND">
+						</div>
+					</form>
+				</div>
+				<div class="col-md-6 contact-info wow fadeInLeft animated" data-wow-delay="0.4s">
+					<h3>Contact Information</h3>
+					<p>
+					</p>
+					<h6>LAZY COOKING RECIPES.
+					<span>5th cross near Oriar Bakery,Mahadeshwaranagar,</span>
+						  Magadi main road,
+						  Bengaluru-560091
+					</h6>
+					E-mail: <a href="lazycookingrecipe.com">lazycookingrecipe@gmail.com</a>
+					</p>
+					
+				</div>
+				<div class="clearfix"> </div>
+			<!-- //container -->
+		</div>
+		</div>
+	</div>
+	<!-- footer-section-starts -->
+	<div class="footer">
+		<div class="container">
+			 <p class="wow bounceInLeft animated" data-wow-delay="0.4s">LAZY COOKING RECIPIES &copy; 2020| Design by w3layouts  Kavya.G  Usha.M  Varshitha.K &nbsp;<a href="http://w3layouts.com" target="target_blank"></a></p>
+		</div>
+	</div>
+	<!-- footer-section-ends -->
+	<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</body>
+</html>
